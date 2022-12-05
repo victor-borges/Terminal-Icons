@@ -266,6 +266,8 @@
             # CSharp
             '.cs'                   = 'nf-mdi-language_csharp'
             '.csx'                  = 'nf-mdi-language_csharp'
+            '.cshtml'               = 'nf-mdi-at'
+            '.razor'                = 'nf-mdi-at'
 
             # Haskell
             '.hs'                   = 'nf-dev-haskell'

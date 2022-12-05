@@ -262,6 +262,8 @@
             # CSharp
             '.cs'                   = '7B68EE'
             '.csx'                  = '7B68EE'
+            '.cshtml'               = '5E3691'
+            '.razor'                = '5E3691'
 
             # Haskell
             '.hs'                   = '9932CC'
