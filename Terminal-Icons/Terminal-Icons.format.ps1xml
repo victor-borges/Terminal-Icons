@@ -79,11 +79,13 @@ https://github.com/DHowett/DirColors -->
                             </TableColumnItem>
                             <TableColumnItem>
                                 <ScriptBlock>
-                                    [String]::Format('{0,10}  {1,8}', $_.LastWriteTime.ToString('d'), $_.LastWriteTime.ToString('t'))
+                                    [Humanizer.DateHumanizeExtensions]::Humanize($_.LastWriteTime,$false)
                                 </ScriptBlock>
                             </TableColumnItem>
                             <TableColumnItem>
-                                <PropertyName>Length</PropertyName>
+                                <ScriptBlock>
+                                    if (-not $_.PSIsContainer) { [Humanizer.ByteSizeExtensions]::bytes($_.Length).ToString(0.00)}
+                                </ScriptBlock>
                             </TableColumnItem>
                             <TableColumnItem>
                                 <ScriptBlock>
@@ -118,16 +120,24 @@ https://github.com/DHowett/DirColors -->
                                 </ScriptBlock>
                             </ListItem>
                             <ListItem>
-                                <PropertyName>Length</PropertyName>
+                                <ScriptBlock>
+                                    if (-not $_.PSIsContainer) { [Humanizer.ByteSizeExtensions]::bytes($_.Length).ToString(0.00)}
+                                </ScriptBlock>
                             </ListItem>
                             <ListItem>
-                                <PropertyName>CreationTime</PropertyName>
+                                <ScriptBlock>
+                                    [Humanizer.DateHumanizeExtensions]::Humanize($_.CreationTime,$false)
+                                </ScriptBlock>
                             </ListItem>
                             <ListItem>
-                                <PropertyName>LastWriteTime</PropertyName>
+                                <ScriptBlock>
+                                    [Humanizer.DateHumanizeExtensions]::Humanize($_.LastWriteTime,$false)
+                                </ScriptBlock>
                             </ListItem>
                             <ListItem>
-                                <PropertyName>LastAccessTime</PropertyName>
+                                <ScriptBlock>
+                                    [Humanizer.DateHumanizeExtensions]::Humanize($_.LastAccessTime,$false)
+                                </ScriptBlock>
                             </ListItem>
                             <ListItem>
                                 <PropertyName>Mode</PropertyName>
@@ -155,13 +165,19 @@ https://github.com/DHowett/DirColors -->
                                 </ScriptBlock>
                             </ListItem>
                             <ListItem>
-                                <PropertyName>CreationTime</PropertyName>
+                                <ScriptBlock>
+                                    [Humanizer.DateHumanizeExtensions]::Humanize($_.CreationTime,$false)
+                                </ScriptBlock>
                             </ListItem>
                             <ListItem>
-                                <PropertyName>LastWriteTime</PropertyName>
+                                <ScriptBlock>
+                                    [Humanizer.DateHumanizeExtensions]::Humanize($_.LastWriteTime,$false)
+                                </ScriptBlock>
                             </ListItem>
                             <ListItem>
-                                <PropertyName>LastAccessTime</PropertyName>
+                                <ScriptBlock>
+                                    [Humanizer.DateHumanizeExtensions]::Humanize($_.LastAccessTime,$false)
+                                </ScriptBlock>
                             </ListItem>
                             <ListItem>
                                 <PropertyName>Mode</PropertyName>
