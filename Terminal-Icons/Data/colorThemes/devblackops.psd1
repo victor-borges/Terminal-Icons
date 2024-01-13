@@ -36,6 +36,7 @@
                 windows                 = '00A8E8'
                 users                   = 'F4F4F4'
                 favorites               = 'F7D72C'
+                output                  = '00FF7F'
                 '.config'               = '87CEAF'
                 '.cache'                = '87ECAF'
                 '.vscode'               = '87CEFA'
@@ -92,9 +93,11 @@
                 '.travis.yml'                   = 'FFE4B5'
                 '.gitlab-ci.yml'                = 'FF4500'
                 '.jenkinsfile'                  = '6495ED'
+                'jenkinsfile'                   = '6495ED'
                 'bitbucket-pipelines.yml'       = '87CEFA'
                 'bitbucket-pipelines.yaml'      = '87CEFA'
                 '.azure-pipelines.yml'          = '00BFFF'
+                'makefile'                      = '6495ED'
 
                 # Firebase
                 'firebase.json'                 = 'FFA500'
@@ -243,6 +246,8 @@
             # Source Files
             '.c'                    = 'A9A9A9'
             '.cpp'                  = 'A9A9A9'
+            '.cxx'                  = 'A9A9A9'
+            '.c++'                  = 'A9A9A9'
             '.go'                   = '20B2AA'
             '.php'                  = '6A5ACD'
 
@@ -285,6 +290,7 @@
             '.pgsql'                = 'FFD700'
             '.postgres'             = 'FFD700'
             '.psql'                 = 'FFD700'
+            '.db'                   = 'FFD700'
 
             # Source Control
             '.patch'                = 'FF4500'
@@ -533,6 +539,9 @@
             '.tfvars'               = '948EEC'
             '.auto.tfvars'          = '948EEC'
 
+            # Bicep
+            '.bicep'                = '00BFFF'
+
             # Disk Image
             '.vmdk'                 = 'E1E3E6'
             '.vhd'                  = 'E1E3E6'
@@ -554,6 +563,16 @@
             # Puppet
             '.pp'                   = 'FFA61A'
             '.epp'                  = 'FFA61A'
+
+            # Scala
+            '.scala'                = 'DE3423'
+            '.sc'                   = 'DE3423'
+            '.sbt'                  = 'DE3423'
+
+            # Autodesk Inventor
+            '.iLogicVb'             = 'A63B22'
+
+            '.svelte'               = 'FF3E00'
         }
     }
 }

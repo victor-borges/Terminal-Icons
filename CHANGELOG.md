@@ -5,15 +5,31 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [0.11.0] Unreleased
+## [0.12.0] Unreleased
 
 ### Added
 
+- Add icon and color for wellknown file `jenkinsfile`.
+- Add icon and color for c++ files (.cxx and .c++)
+- Add icon and color for wellknown file `makefile`.
+- Add icon and color for svelte files (.svelte).
+- Add icon and color for generic database files (.db)
+- Add icon and color for Scala Build Tool files (.sbt)
+
+## [0.11.0] 2023-07-05
+
+### Added
+
+- [**#104**](https://github.com/devblackops/Terminal-Icons/pull/104) Migrate to Nerd Font v3 (via [@Tiberriver256](https://github.com/Tiberriver256)
 - [**#92**](https://github.com/devblackops/Terminal-Icons/pull/92) - Add icon and color for  `artifacts` wellknown folder (via [@wangkanai](https://github.com/wangkanai))
 - [**#91**](https://github.com/devblackops/Terminal-Icons/pull/91) - Add icons and colors for  `demo` and `sample` wellknown folders (via [@wangkanai](https://github.com/wangkanai))
 - [**#90**](https://github.com/devblackops/Terminal-Icons/pull/90) - Add icon and color for `benchmark` wellknown folder (via [@wangkanai](https://github.com/wangkanai))
 - Add glyphs from Nerd Font v2.2.0 (must have a Nerd Font >= 2.2.0 installed to see these)
 - Add icon and color for Puppet (.pp and .epp)
+- Add icon and color for bicep (.bicep)
+- Add icon and color for `output` wellknown folder
+- Add icon and color for Scala (.scala, .sc)
+- Add icon and color for Autodesk Inventor (.iLogicVb)
 
 ## [0.10.0] 2022-07-06
 

@@ -36,6 +36,7 @@
         windows                 = '00A8E8'
         users                   = 'F4F4F4'
         favorites               = 'F7D72C'
+        output                  = '00cd65'
         '.config'               = '87CEAF'
         '.cache'                = '87ECAF'
         '.vscode'               = '87CEFA'
@@ -92,9 +93,11 @@
         '.travis.yml'                   = 'ffbe4f'
         '.gitlab-ci.yml'                = 'FF4500'
         '.jenkinsfile'                  = '6495ED'
+        'jenkinsfile'                   = '6495ED'
         'bitbucket-pipelines.yml'       = '87CEFA'
         'bitbucket-pipelines.yaml'      = '87CEFA'
         '.azure-pipelines.yml'          = '00BFFF'
+        'makefile'                      = '6495ED'
 
         # Firebase
         'firebase.json'                 = 'FFA500'
@@ -242,6 +245,8 @@
       # Source Files
       '.c'                    = 'A9A9A9'
       '.cpp'                  = 'A9A9A9'
+      '.cxx'                  = 'A9A9A9'
+      '.c++'                  = 'A9A9A9'
       '.go'                   = '20B2AA'
       '.php'                  = '6A5ACD'
 
@@ -284,6 +289,7 @@
       '.pgsql'                = 'ffc200'
       '.postgres'             = 'ffc200'
       '.psql'                 = 'ffc200'
+      '.db'                   = 'ffc200'
 
       # Source Control
       '.patch'                = 'FF4500'
@@ -532,6 +538,9 @@
       '.tfvars'               = '948EEC'
       '.auto.tfvars'          = '948EEC'
 
+      # Bicep
+      '.bicep'                = '00BFFF'
+
       # Disk Image
       '.vmdk'                 = 'a9afb8'
       '.vhd'                  = 'a9afb8'
@@ -553,6 +562,16 @@
       # Puppet
       '.pp'                   = 'FFA61A'
       '.epp'                  = 'FFA61A'
+
+      # Scala
+      '.scala'                = 'DE3423'
+      '.sc'                   = 'DE3423'
+      '.sbt'                  = 'DE3423'
+
+      # Autodesk Inventor
+      '.iLogicVb'             = 'A63B22'
+
+      '.svelte'               = 'FF3E00'
     }
   }
 }
